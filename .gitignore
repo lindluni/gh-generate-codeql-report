@@ -1,0 +1,4 @@
+/gh-generate-codeql-report
+/gh-generate-codeql-report.exe
+
+*.csv
