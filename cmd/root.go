@@ -10,10 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/spf13/cobra"
-
 	"github.com/lindluni/gh-generate-codeql-report/pkg/codeql"
 	csvpkg "github.com/lindluni/gh-generate-codeql-report/pkg/csv"
+	"github.com/spf13/cobra"
 )
 
 var (
