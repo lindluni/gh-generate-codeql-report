@@ -75,7 +75,7 @@ func (c *Client) GetAlert(ctx context.Context, owner, repo string, alertNumber i
 			Owner:       owner,
 			Repo:        repo,
 			ID:          alert.GetNumber(),
-			Severity:    alert.Rule.GetSeverity(),
+			Severity:    alert.Rule.GetSecuritySeverityLevel(),
 			ShortDesc:   alert.Rule.GetDescription(),
 			FullDesc:    alert.Rule.GetFullDescription(),
 			FilePath:    location.GetPath(),
